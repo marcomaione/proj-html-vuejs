@@ -1,21 +1,26 @@
 <template>
     <div class="container">
         <div class="row">
-          <div class="logo">
-              <img src="../assets/avada-img/logo.png" alt="">
-          </div>
-          <div class="nav">
+            <div class="logo">
+              <img src="../assets/avada-img/logo.png" alt="logo Avada">
+            </div>
+            <div class="nav">
               <ul>
-                  <li>Home</li>
-                  <li>Service</li>
-                  <li>About</li>
-                  <li>Videos</li>
-                  <li>Blog</li>
-                  <li>Store</li>
-                  <button>schedule a workout</button>
+                <li>Home</li>
+                <li>Service</li>
+                <li>About</li>
+                <li>Videos</li>
+                <li>Blog</li>
+                <li>Store</li>
+                <button>schedule a workout</button>
               </ul>
-
-          </div>
+            </div>
+        </div>
+        <div id="jumbotron">
+            <div>
+                
+            </div>
+            
         </div>
     </div>
 </template>
@@ -51,13 +56,20 @@ export default {
             
         }
         button {
-                background: #4154ff;
-                color: azure;
-                width: 150px;
-                height: 40px;
-                border-radius: 50px;
-                border: solid 1px #4154ff;
-            }
+            background: #4154ff;
+            color: azure;
+            width: 150px;
+            height: 40px;
+            border-radius: 50px;
+            border: solid 1px #4154ff;
+            margin: 0px 5px;
+        }
+    }
+    #jumbotron {
+        min-height: 700px;
+        background-image: url("../assets/avada-img/slider82x-scaled.jpg");
+        background-size:cover ;
+
     }
 }
 
