@@ -73,6 +73,29 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="row-3">
+                <span>Latest articles</span>
+                <a href="#">Read all articles > </a>
+            </div>
+            <div class="row-3">
+                <div class="slide">
+                    <img src="../assets/avada-img/blog4-2x-400x258.jpg" alt="">
+                    <p>The best protein shake</p>
+                    <span id="c">By admin | November 26th,2019 | Gym</span>
+                </div>
+                <div class="slide">
+                    <img src="../assets/avada-img/blog1-2x-400x258.jpg" alt="">
+                    <p>Ultimate cardio workout</p>
+                    <span id="c">By admin | November 26th,2019 | Gym</span>
+                </div>
+                <div class="slide">
+                    <img src="../assets/avada-img/blog3-2x-400x258.jpg" alt="">
+                    <p>New juices available now</p>
+                    <span id="c">By admin | November 26th,2019 | Gym</span>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
@@ -92,6 +115,9 @@ export default {
 
 section {
     width: 100%;
+}
+#c {
+    color: rgb(34, 34, 34);
 }
 .row-2 {
     display: flex;
