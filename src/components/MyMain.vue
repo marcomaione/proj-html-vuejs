@@ -38,6 +38,20 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="offers">
+                <div class="row-3">
+                    <div class="subscribe">
+                        <span>Join our mailing list today</span>
+                        <h1>Insider offers & flash sales in your inbox every week.</h1>
+                        <input type="text">
+                        <button>Subscribe</button>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores quo quaerat. Voluptas placeat molestias labore non aut nisi recusandae.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </div>
 </template>
 
@@ -129,6 +143,46 @@ section {
         }
     }
 }
+.offers {
+    min-height: 450px;
+    background-image: url("../assets/avada-img/banner1-2x.jpg");
+    background-size: cover;
+    .subscribe {
+        margin: 100px 0px;
+        width: 70%;
+        span {
+            color: red;
+            font-size: 20px;
+        }
+        h1 {
+            margin-top: 25px;
+            color: white;
+            font-size: 40px;
+        }
+        input {
+            margin-top: 25px;
+            border-radius: 50px;
+            width: 350px;
+            height: 40px;
+            border: solid 1px white;
+        }
+        button {
+            background:#4154ff;
+            color: azure;
+            width: 200px;
+            height: 40px;
+            border-radius: 50px;
+            border: solid 1px #4154ff;
+            margin: 25px 20px;
+            cursor: pointer;
+        }
+        p {
+            margin-top: 20px;
+            color: rgb(124, 124, 124);
+        }
+    }
+}
+
 
 
 </style>
