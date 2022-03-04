@@ -34,7 +34,19 @@
             </div>
             
         </div>
-        <section id="B-color"></section>
+        <section id="B-color">
+            <div class="row-1">
+                <div class="slide">
+                    <img src="../assets/avada-img/service6-2x.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../assets/avada-img/box1-2x.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../assets/avada-img/box3-2x.jpg" alt="">
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
@@ -81,6 +93,10 @@ export default {
     padding: 0;
     box-sizing: border-box;
 }
+.row-1 {
+    width: 80%;
+    margin: 0px auto;
+}
 .container {
     width: 100%;
     min-height: 80px;
@@ -119,13 +135,7 @@ export default {
         background-size:cover;
         display: flex;
         align-items: center;
-        .row-1 {
-            width: 80%;
-            margin: 0px auto;
-            border: solid 1px wheat;
-        }
         .side-l {
-            border: solid 1px wheat;
             width: 60%;
             span {
                 color: red;
@@ -169,6 +179,22 @@ export default {
     #B-color {
         min-height: 400px;
         background: linear-gradient(135deg, rgb(9, 9, 133) 10%, rgb(141, 4, 4));
+        .row-1 {
+            display: flex;
+            justify-content: space-between;
+        }
+        .slide {
+            margin-top: -50px;
+
+
+
+            img {
+                max-width: 300px;
+                border-radius: 0px 0px 30px 0px;
+            }
+            
+        }
+
 
     }
 }
