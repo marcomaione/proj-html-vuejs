@@ -1,7 +1,7 @@
 <template>
     <div>
         <section>
-            <div class="row">
+            <div class="row-2">
                 <div class="left">
                     <img src="../assets/avada-img/service15-2x.jpg" alt="">
                 </div>
@@ -15,7 +15,29 @@
                 </div>
             </div>
         </section>
-
+        <section>
+            <div class="row-3">
+                <span>Featured playlists</span>
+                <a href="#">View all Videos > </a>
+            </div>
+            <div class="row-3">
+                <div class="slide">
+                    <img src="../assets/avada-img/video2-2x.jpg" alt="">
+                    <p>Things & glute workout</p>
+                    <span>Increase your mobility</span>
+                </div>
+                <div class="slide">
+                    <img src="../assets/avada-img/video7-2x.jpg" alt="">
+                    <p>Lift, firm & perk up</p>
+                    <span>Feel young again</span>
+                </div>
+                <div class="slide">
+                    <img src="../assets/avada-img/video9-2x.jpg" alt="">
+                    <p>Slim & trim your waist</p>
+                    <span>Shed those extra pounds</span>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
@@ -27,7 +49,10 @@ export default {
 </script>
 
 <style lang="scss">
-.row {
+section {
+    width: 100%;
+}
+.row-2 {
     display: flex;
     .left {
     width: 50%;
@@ -73,6 +98,36 @@ export default {
     
     }
 
+}
+.row-3 {
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    span {
+        font-size: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .slide {
+        width: 30%;
+        text-align: center;
+        img {
+        width:100%;
+        height: 200px;
+        border-radius: 0px 0px 30px 0px;
+        }
+        p {
+            font-size: 20px;
+            margin: 10px 0px;
+        }
+        span {
+            color: blue;
+            font-size: 15px;
+        }
+    }
 }
 
 
