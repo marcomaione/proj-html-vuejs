@@ -28,6 +28,7 @@
             </div>
             
         </div>
+        <section id="B-color"></section>
     </div>
 </template>
 
@@ -103,12 +104,17 @@ export default {
             border-radius: 50px;
             border: solid 1px #4154ff;
             margin: 0px 5px;
+            cursor: pointer;
         }
     }
     #jumbotron {
-        min-height: 700px;
+        min-height: 450px;
         background-image: url("../assets/avada-img/slider82x-scaled.jpg");
         background-size:cover ;
+    }
+    #B-color {
+        min-height: 400px;
+        background: linear-gradient(135deg, rgb(9, 9, 133) 10%, rgb(141, 4, 4));
 
     }
 }
