@@ -5,15 +5,21 @@
               <img src="../assets/avada-img/logo.png" alt="logo Avada">
             </div>
             <div class="nav">
-              <ul>
-                <li>Home</li>
-                <li>Service</li>
-                <li>About</li>
-                <li>Videos</li>
-                <li>Blog</li>
-                <li>Store</li>
-                <button>schedule a workout</button>
-              </ul>
+                <nav>
+                    <ul>
+                        <li v-for="(link, index) in links" :key="index">
+                            <a href="#">{{link.text}}</a>
+                        </li>
+                        <!--
+                        <li>Service</li>
+                        <li>About</li>
+                        <li>Videos</li>
+                        <li>Blog</li>
+                        <li>Store</li>
+                        -->
+                        <button>schedule a workout</button>
+                    </ul>
+                </nav>
             </div>
         </div>
         <div id="jumbotron">
@@ -27,7 +33,37 @@
 
 <script>
 export default {
-    name:"MyHeader"
+    name:"MyHeader",
+    data() {
+        return {
+            links: [
+                {
+                    text: 'Home',
+                    url:'#',
+                },
+                {
+                    text: 'Service',
+                    url:'#',
+                },
+                {
+                    text: 'About',
+                    url:'#',
+                },
+                {
+                    text: 'Videos',
+                    url:'#',
+                },
+                {
+                    text: 'Blog',
+                    url:'#',
+                },
+                {
+                    text: 'Store',
+                    url:'#',
+                },
+            ],
+        }
+    }
 
 }
 </script>
@@ -53,6 +89,10 @@ export default {
             display: inline-block;
             margin:0px 7px;
             color: #71888c;
+            a {
+                text-decoration: none;
+                color: lightgrey;
+            }
             
         }
         button {
