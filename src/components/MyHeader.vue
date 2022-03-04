@@ -185,7 +185,7 @@ export default {
         }
     }
     #B-color {
-        min-height: 400px;
+        min-height: 800px;
         background: linear-gradient(135deg, rgb(9, 9, 133) 10%, rgb(141, 4, 4));
         .row-1 {
             display: flex;
