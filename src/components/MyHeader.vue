@@ -49,6 +49,7 @@
             <div class="row-1">
                 <div class="text-center">
                     <p>"How you respond to the challenge in the second half will determine what you become after the game, whether you are a winner or a loser."</p>
+                    <img src="../assets/avada-img/avatar-1-2x.jpg" alt="">
                     <span>Brad Johnson</span>
                     <span>Las Vegas</span>
                 </div>
@@ -103,7 +104,6 @@ export default {
 .row-1 {
     width: 80%;
     margin: 0px auto;
-    border: solid 1px wheat;
 }
 .container {
     width: 100%;
@@ -205,9 +205,16 @@ export default {
             color: white;
             font-size: 52px;
             text-align: center;
+            img {
+                max-width: 50px;
+                border-radius: 50%;
+                vertical-align: middle;
+                margin: 20px;
+            }
             span {
                 font-size: 20px;
                 margin-right: 10px;
+                vertical-align: middle;
             }
         }
 
