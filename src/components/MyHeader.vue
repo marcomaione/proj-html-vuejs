@@ -17,14 +17,20 @@
                         <li>Blog</li>
                         <li>Store</li>
                         -->
-                        <button>schedule a workout</button>
+                        <button class="btn-b">schedule a workout</button>
                     </ul>
                 </nav>
             </div>
         </div>
         <div id="jumbotron">
-            <div>
-                
+            <div class="row-1">
+                <div class="side-l">
+                    <span>Certified fitness professional</span>
+                    <h1>Take control of your health</h1>
+                    <p> quae earum quia placeat omnis fugit accusantium dignissimos fuga.</p>
+                    <button class="btn-b">Visit my YouTube channel</button>
+                    <button>Buy Avada today</button>
+                </div>
             </div>
             
         </div>
@@ -96,7 +102,7 @@ export default {
             }
             
         }
-        button {
+        .btn-b {
             background: #4154ff;
             color: azure;
             width: 150px;
@@ -110,7 +116,55 @@ export default {
     #jumbotron {
         min-height: 450px;
         background-image: url("../assets/avada-img/slider82x-scaled.jpg");
-        background-size:cover ;
+        background-size:cover;
+        display: flex;
+        align-items: center;
+        .row-1 {
+            width: 80%;
+            margin: 0px auto;
+            border: solid 1px wheat;
+        }
+        .side-l {
+            border: solid 1px wheat;
+            width: 60%;
+            span {
+                color: red;
+                font-size: 20px;
+                margin: 10px 0px;
+            }
+            h1 {
+                color: white;
+                font-size: 50px;
+                margin: 10px 0px;
+            }
+            p {
+                color: #8d9192;
+                margin: 20px 0px;
+                font-size: 20px;
+            }
+            .btn-b {
+            background: #4154ff;
+            color: azure;
+            width: 200px;
+            height: 40px;
+            border-radius: 50px;
+            border: solid 1px #4154ff;
+            margin: 0px 5px;
+            cursor: pointer;
+            }
+            button {
+                color:white;
+                background-color: transparent;
+                width: 150px;
+                height: 40px;
+                border-radius: 50px;
+                border: solid 1px lightgrey;
+                margin: 0px 5px;
+                cursor: pointer;
+
+            }
+            
+        }
     }
     #B-color {
         min-height: 400px;
