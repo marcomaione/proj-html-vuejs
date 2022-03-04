@@ -46,10 +46,31 @@
                         <h1>Insider offers & flash sales in your inbox every week.</h1>
                         <input type="text">
                         <button>Subscribe</button>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores quo quaerat. Voluptas placeat molestias labore non aut nisi recusandae.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores quo quaerat. Voluptas placeat molestias labore non aut nisi.</p>
                     </div>
                 </div>
-
+            </div>
+        </section>
+        <section class="black">
+            <div class="row-3">
+                <div class="item">
+                    <h4>Team training</h4>
+                    <span>Find a partner</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint cumque non doloribus. Placeat accusantium quo rem assumenda, nostrum quibusdam corrupti beatae aspernatur nemo!</p>
+                    <a href="#">Find a partner > </a>
+                </div>
+                <div class="item">
+                    <h4>Team training</h4>
+                    <span>Find a partner</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint cumque non doloribus. Placeat accusantium quo rem assumenda, nostrum quibusdam corrupti beatae aspernatur nemo!</p>
+                    <a href="#">Find a partner > </a>
+                </div>
+                <div class="item">
+                    <h4>Team training</h4>
+                    <span>Find a partner</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint cumque non doloribus. Placeat accusantium quo rem assumenda, nostrum quibusdam corrupti beatae aspernatur nemo!</p>
+                    <a href="#">Find a partner > </a>
+                </div>
             </div>
         </section>
     </div>
@@ -63,6 +84,12 @@ export default {
 </script>
 
 <style lang="scss">
+.black {
+    min-height: 500px;
+    margin-top: -30px;
+    background-color: black;
+}
+
 section {
     width: 100%;
 }
@@ -182,7 +209,31 @@ section {
         }
     }
 }
+.item {
+    margin-top: 80px;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    border: solid 4px blue;
+    border-radius: 10px;
+    h4 {
+        color:white;
+        margin: 15px 0px;
+    }
+    span {
+        color:yellow;
+    }
+    p {
+        margin-top: 20px;
+        color: rgb(124, 124, 124); ;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
 
 
 
 </style>
+install @fortawesome/fontawesome-free
