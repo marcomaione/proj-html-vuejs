@@ -46,6 +46,13 @@
                     <img src="../assets/avada-img/box3-2x.jpg" alt="">
                 </div>
             </div>
+            <div class="row-1">
+                <div class="text-center">
+                    <p>"How you respond to the challenge in the second half will determine what you become after the game, whether you are a winner or a loser."</p>
+                    <span>Brad Johnson</span>
+                    <span>Las Vegas</span>
+                </div>
+            </div>
         </section>
     </div>
 </template>
@@ -96,6 +103,7 @@ export default {
 .row-1 {
     width: 80%;
     margin: 0px auto;
+    border: solid 1px wheat;
 }
 .container {
     width: 100%;
@@ -185,14 +193,22 @@ export default {
         }
         .slide {
             margin-top: -50px;
-
-
-
             img {
                 max-width: 300px;
                 border-radius: 0px 0px 30px 0px;
             }
-            
+        }
+        .text-center {
+            width: 80%;
+            margin: 0px auto;
+            margin-top: 100px;
+            color: white;
+            font-size: 52px;
+            text-align: center;
+            span {
+                font-size: 20px;
+                margin-right: 10px;
+            }
         }
 
 
