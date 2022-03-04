@@ -96,6 +96,18 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="jumbotron">
+                <div class="row-2">
+                    <div class="text">
+                        <h2>" I've failed over and over again in my life.And thet is why I succeed."</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolor quos cumque excepturi doloremque impedit eius sequi, qui iure autem suscipit itaque accusantium odio ut ratione officiis voluptates aut minus</p>
+                        <button>Buy Avada today ></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </div>
 </template>
 
@@ -256,6 +268,38 @@ section {
     a {
         text-decoration: none;
         color: white;
+    }
+}
+.jumbotron {
+    min-height: 450px;
+    background-image: url("../assets/avada-img/banner2-2x.jpg");
+    background-size: cover;
+    .row-2 {
+        display: flex;
+        justify-content: center;
+        .text {
+            margin-top: 150px;
+            width: 70%;
+            text-align: center;
+            h2 {
+                font-size: 40px;
+                color: white;
+            }
+            p {
+                color: white;
+                margin: 30px 0px;
+            }
+            button {
+            background:#4154ff;
+            color: azure;
+            width: 150px;
+            height: 40px;
+            border-radius: 50px;
+            border: solid 1px #4154ff;
+            margin: 25px 20px;
+            cursor: pointer;
+        }
+        }
     }
 }
 
