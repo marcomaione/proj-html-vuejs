@@ -87,6 +87,7 @@
                 <div class="slide">
                     <img src="../assets/avada-img/blog1-2x-400x258.jpg" alt="">
                     <p>Ultimate cardio workout</p>
+                    
                     <span id="c">By admin | November 26th,2019 | Gym</span>
                 </div>
                 <div class="slide">

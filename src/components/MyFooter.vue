@@ -22,6 +22,16 @@
                     <a href="#">Visit Power Gym ></a>
                 </div>
             </div>
+            <section>
+                <div class="fo-jumbo">
+                    <div class="crossfit">
+                        <h2>Crossfit workout of the day</h2>
+                        <p>November 15th,2019</p>
+                        <a href="#">View all videos</a>
+                    </div>
+
+                </div>
+            </section>
         </section>
 </template>
 
@@ -45,6 +55,34 @@ export default {
         margin-bottom: 25px;
     }
 
+}
+.fo-jumbo {
+    margin-top: 80px;
+    min-height: 450px;
+    background-image: url("../assets/avada-img/banner14-2x.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .crossfit {
+        border: solid 1px wheat;
+        text-align: center;
+        h2 {
+            color: white;
+            font-size: 40px;
+            margin-top: 80px;
+        }
+        p {
+            color: yellow;
+            font-size: 25px;
+            margin: 10px 0px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+    }
 }
 
 </style>
