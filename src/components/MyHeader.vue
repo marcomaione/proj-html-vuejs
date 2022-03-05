@@ -18,6 +18,8 @@
                         <li>Store</li>
                         -->
                         <button class="btn-b">schedule a workout</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </ul>
                 </nav>
             </div>
@@ -100,6 +102,12 @@ export default {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.fa-solid {
+    color: lightgrey;
+    margin: 0px 20px;
+    font-size: 15px;
+    cursor: pointer;
 }
 .row-1 {
     width: 80%;

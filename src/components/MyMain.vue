@@ -8,7 +8,9 @@
                 <div class="right">
                     <a href="#">Tune up your workouts</a>
                     <h2>The best health & fitness advice online</h2>
-                    <span>you tube</span>
+                    <img src="../assets/avada-img/unnamed.jpg" alt="">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>You Tube</span>
                     <span>999+</span>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe eum quae ipsam velit Animi eos provident totam non molestias.</p>
                     <button>Visit my You Tube chanel</button>
@@ -60,14 +62,16 @@
                     <a href="#">Find a partner > </a>
                 </div>
                 <div class="item">
-                    <h4>Team training</h4>
-                    <span>Find a partner</span>
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h4>Crossfit workout</h4>
+                    <span>Push your limits</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint cumque non doloribus. Placeat accusantium quo rem assumenda, nostrum quibusdam corrupti beatae aspernatur nemo!</p>
                     <a href="#">Find a partner > </a>
                 </div>
                 <div class="item">
-                    <h4>Team training</h4>
-                    <span>Find a partner</span>
+                    <i class="fa-solid fa-weight-scale"></i>
+                    <h4>Weigth loss</h4>
+                    <span>Shed those pounds</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint cumque non doloribus. Placeat accusantium quo rem assumenda, nostrum quibusdam corrupti beatae aspernatur nemo!</p>
                     <a href="#">Find a partner > </a>
                 </div>
@@ -87,7 +91,7 @@
                 <div class="slide">
                     <img src="../assets/avada-img/blog1-2x-400x258.jpg" alt="">
                     <p>Ultimate cardio workout</p>
-                    
+
                     <span id="c">By admin | November 26th,2019 | Gym</span>
                 </div>
                 <div class="slide">
@@ -120,6 +124,11 @@ export default {
 </script>
 
 <style lang="scss">
+.fa-solid {
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
 .black {
     min-height: 500px;
     margin-top: -30px;
@@ -146,6 +155,9 @@ section {
         width: 50%;
         margin-top: 150px;
         margin-left: 100px;
+        img {
+            margin-top: 10px;
+        }
         a {
             text-decoration: none;
             color: blue;
@@ -156,10 +168,9 @@ section {
             margin: 25px 0px;
         }
         span {
-            background-color: red;
-            color: white;
-            border: solid 1px black;
+            color: black;
             margin:40px 5px;
+            vertical-align: middle;
         }
         p {
             margin-top: 20px;
@@ -263,7 +274,7 @@ section {
         color:yellow;
     }
     p {
-        margin-top: 20px;
+        margin:20px 0px;
         color: rgb(124, 124, 124); ;
     }
     a {
