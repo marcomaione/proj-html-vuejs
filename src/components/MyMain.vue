@@ -271,7 +271,7 @@ section {
 }
 .offers {
     min-height: 450px;
-    background-image: url("../assets/avada-img/banner1-2x.jpg");
+    background: linear-gradient(90deg, rgb(0,0,0) 40%, rgba(0,0,0,0)),url("../assets/avada-img/banner1-2x.jpg");
     background-size: cover;
     .subscribe {
         margin: 100px 0px;

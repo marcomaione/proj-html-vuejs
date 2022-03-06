@@ -106,7 +106,7 @@ export default {
 .fo-jumbo {
     margin-top: 80px;
     min-height: 450px;
-    background-image: url("../assets/avada-img/banner14-2x.jpg");
+    background: linear-gradient(135deg, rgb(9, 9, 133,0.5) 10%, rgb(141, 4, 4,0.5)),url("../assets/avada-img/banner14-2x.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;

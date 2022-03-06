@@ -163,8 +163,14 @@ export default {
     }
     #jumbotron {
         min-height: 450px;
+        /*
         background-image: url("../assets/avada-img/slider82x-scaled.jpg");
-        background-size:cover;
+        */
+        /*
+        background: linear-gradient(to left, rgb(246, 243, 243) 10%,rgb(14, 14, 14)), url("../assets/avada-img/slider82x-scaled.jpg");
+        */
+        background: linear-gradient(90deg, rgb(0,0,0) 35%, rgba(0,0,0,0)),url("../assets/avada-img/slider82x-scaled.jpg");
+        background-size: cover;
         display: flex;
         align-items: center;
         .side-l {
