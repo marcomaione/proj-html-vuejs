@@ -27,19 +27,26 @@
             </div>
             <div class="row-3">
                 <div class="slide">
-                    <div>
-                        <img src="../assets/avada-img/video2-2x.jpg" alt="">
+                    <img src="../assets/avada-img/video2-2x.jpg" alt="">
+                    <div class="play">
+                        <i class="fa-solid fa-circle-play"></i>
                     </div>
-                    <p>Things & glute workout</p>
+                    <p>Thighs & glute workout</p>
                     <span>Increase your mobility</span>
                 </div>
                 <div class="slide">
                     <img src="../assets/avada-img/video7-2x.jpg" alt="">
+                    <div class="play">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
                     <p>Lift, firm & perk up</p>
                     <span>Feel young again</span>
                 </div>
                 <div class="slide">
                     <img src="../assets/avada-img/video9-2x.jpg" alt="">
+                    <div class="play">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
                     <p>Slim & trim your waist</p>
                     <span>Shed those extra pounds</span>
                 </div>
@@ -129,6 +136,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 .fa-solid {
     color: white;
     font-size: 20px;
@@ -228,10 +236,28 @@ section {
     .slide {
         width: 30%;
         text-align: center;
+        position: relative;
+        .play {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            left: 0;
+            .fa-circle-play {
+                font-size: 50px;
+                margin-bottom: 80px;
+            }
+        }
         img {
-        width:100%;
-        height: 200px;
-        border-radius: 0px 0px 30px 0px;
+            width:100%;
+            height: 200px;
+            border-radius: 0px 0px 30px 0px;
         }
         p {
             font-size: 20px;
@@ -342,3 +368,4 @@ section {
 
 </style>
 install @fortawesome/fontawesome-free
+
