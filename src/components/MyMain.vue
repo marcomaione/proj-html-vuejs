@@ -4,6 +4,9 @@
             <div class="row-2">
                 <div class="left">
                     <img src="../assets/avada-img/service15-2x.jpg" alt="">
+                    <div class="left-play">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
                 </div>
                 <div class="right">
                     <a href="#">Tune up your workouts</a>
@@ -24,7 +27,9 @@
             </div>
             <div class="row-3">
                 <div class="slide">
-                    <img src="../assets/avada-img/video2-2x.jpg" alt="">
+                    <div>
+                        <img src="../assets/avada-img/video2-2x.jpg" alt="">
+                    </div>
                     <p>Things & glute workout</p>
                     <span>Increase your mobility</span>
                 </div>
@@ -145,11 +150,29 @@ section {
     display: flex;
     .left {
     width: 50%;
+    margin-top: -50px;
+    position: relative;
+    .left-play {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        left: 0;
+        .fa-circle-play {
+            font-size: 60px;
+            border:solid 2px black;
+            border-radius: 50%;
+        }
+    }
     }
     img {
         max-width:100%;
         border-radius: 0px 0px 30px 0px;
-        margin-top: -50px;
     }
     .right {
         width: 50%;
