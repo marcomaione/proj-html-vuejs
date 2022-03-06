@@ -48,9 +48,10 @@
                     <div class="info">
                         <h4>RECENT POST</h4>
                         <ul>
-                            <li>
-                                <a href="#">>The best protein shake</a>
+                            <li v-for="(product, index) in products" :key="index">
+                                <a href="#">{{product.shop}}</a>
                             </li>
+                            <!--
                             <li>
                                 <a href="#">>Ultimate cardio workout</a>
                             </li>
@@ -63,6 +64,7 @@
                             <li>
                                 <a href="#">>20 best healthy recipes</a>
                             </li>
+                            -->
                         </ul>
                     </div>
                     <div class="info">
@@ -83,7 +85,10 @@
 
 <script>
 export default {
-    name:"MyFooter"
+    name:"MyFooter",
+    props: {
+        'products': Object,
+    }
 
 }
 </script>

@@ -74,41 +74,13 @@
         </section>
     </div>
 </template>
-
 <script>
+
 export default {
     name:"MyHeader",
-    data() {
-        return {
-            links: [
-                {
-                    text: 'Home',
-                    url:'#',
-                },
-                {
-                    text: 'Service',
-                    url:'#',
-                },
-                {
-                    text: 'About',
-                    url:'#',
-                },
-                {
-                    text: 'Videos',
-                    url:'#',
-                },
-                {
-                    text: 'Blog',
-                    url:'#',
-                },
-                {
-                    text: 'Store',
-                    url:'#',
-                },
-            ],
-        }
+    props: {
+        'links': Object,
     }
-
 }
 </script>
 
