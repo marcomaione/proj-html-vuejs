@@ -25,53 +25,59 @@
             <section>
                 <div class="fo-jumbo">
                     <div class="crossfit">
+                        <i class="fa-solid fa-circle-play"></i>
                         <h2>Crossfit workout of the day</h2>
                         <p>November 15th,2019</p>
                         <a href="#">View all videos</a>
                     </div>
                 </div>
             </section>
-             <section class="black">
-            <div class="row-3">
-                <div class="info">
-                    <img src="../assets/avada-img/logo.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus.</p>
-                    <ul class="social">
-                        <li><i class="fa-brands fa-facebook-f"></i></li>
-                        <li><i class="fa-brands fa-twitter"></i></li>
-                        <li><i class="fa-brands fa-youtube"></i></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                        <li><i class="fa-brands fa-linkedin-in"></i></li>
-                    </ul>
+            <section class="black">
+                <div class="row-3">
+                    <div class="info">
+                        <img src="../assets/avada-img/logo.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus.</p>
+                        <ul class="social">
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in"></i></li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h4>RECENT POST</h4>
+                        <ul>
+                            <li>
+                                <a href="#">>The best protein shake</a>
+                            </li>
+                            <li>
+                                <a href="#">>Ultimate cardio workout</a>
+                            </li>
+                            <li>
+                                <a href="#">>New juice available</a>
+                            </li>
+                            <li>
+                                <a href="#">>Tips to find training partners</a>
+                            </li>
+                            <li>
+                                <a href="#">>20 best healthy recipes</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h4>CONTACT INFORMATIONS</h4>
+                        <p>4746 Tipple Road Michigan 48449</p>
+                        <p>Mobile: 1.800.000.0000</p>
+                        <p>Email : info@your-company.com</p>
+                    </div>
                 </div>
-                <div class="info">
-                    <h4>RECENT POST</h4>
-                    <ul>
-                        <li>
-                            <a href="#">>The best protein shake</a>
-                        </li>
-                        <li>
-                            <a href="#">>Ultimate cardio workout</a>
-                        </li>
-                        <li>
-                            <a href="#">>New juice available</a>
-                        </li>
-                        <li>
-                            <a href="#">>Tips to find training partners</a>
-                        </li>
-                        <li>
-                            <a href="#">>20 best healthy recipes</a>
-                        </li>
-                    </ul>
+            </section>
+            <section class="end">
+                <div class="copyright">
+                    <p>© Copyright 2012-2020|Avada theme by ThemeFusion|All rights reserved|Powered by WordPress </p>
                 </div>
-                <div class="info">
-                    <h4>CONTACT INFORMATIONS</h4>
-                    <p>4746 Tipple Road Michigan 48449</p>
-                    <p>Mobile: 1.800.000.0000</p>
-                    <p>Email : info@your-company.com</p>
-                </div>
-            </div>
-        </section>
+            </section>
     </section>
 </template>
 
@@ -83,6 +89,10 @@ export default {
 </script>
 
 <style lang="scss">
+.black {
+    border-bottom: solid 1px gray;
+}
+
 .fa-brands {
     vertical-align: middle;
     color:red;
@@ -111,12 +121,15 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    .fa-circle-play {
+        font-size: 50px;
+    }
     .crossfit {
         text-align: center;
         h2 {
             color: white;
             font-size: 40px;
-            margin-top: 80px;
+            margin-top: 30px;
         }
         p {
             color: yellow;
@@ -162,7 +175,17 @@ export default {
 .social li{
     display: inline-block;
 }
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    .copyright {
+        color: white;
+    }
+}
 
 
 </style>
-@import "~@fortawesome/fontawesome-free/css/all.css";
