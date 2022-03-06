@@ -40,12 +40,24 @@
             <div class="row-1">
                 <div class="slide">
                     <img src="../assets/avada-img/service6-2x.jpg" alt="">
+                    <div class="slide-text">
+                        <h3>Crossfit workout</h3>
+                        <span>Push your limits</span>
+                    </div>
                 </div>
                 <div class="slide">
                     <img src="../assets/avada-img/box1-2x.jpg" alt="">
+                    <div class="slide-text">
+                        <h3>Bew gym apparel</h3>
+                        <span>Look good,feel good</span>
+                    </div>
                 </div>
                 <div class="slide">
                     <img src="../assets/avada-img/box3-2x.jpg" alt="">
+                    <div class="slide-text">
+                        <h3>Team training</h3>
+                        <span>Find a partner</span>
+                    </div>
                 </div>
             </div>
             <div class="row-1">
@@ -201,9 +213,24 @@ export default {
         }
         .slide {
             margin-top: -50px;
+            position: relative;
             img {
                 max-width: 300px;
+                opacity: 0.8;
                 border-radius: 0px 0px 30px 0px;
+            }
+            .slide-text {
+                position: absolute;
+                margin-top: -80px;
+                margin-left: 30px;
+                h3 {
+                    color: white;
+                    font-size: 25px;
+                }
+                span {
+                    color: yellow;
+                    font-size: 22px;
+                }
             }
         }
         .text-center {
