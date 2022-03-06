@@ -33,6 +33,9 @@
                     <button class="btn-b">Visit my YouTube channel</button>
                     <button>Buy Avada today</button>
                 </div>
+                <div class="side-r">
+                    <i class="fa-solid fa-circle-play"></i>
+                </div>
             </div>
             
         </div>
@@ -124,6 +127,7 @@ export default {
 .row-1 {
     width: 80%;
     margin: 0px auto;
+    display: flex;
 }
 .container {
     width: 100%;
@@ -202,6 +206,15 @@ export default {
 
             }
             
+        }
+        .side-r {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .fa-circle-play {
+                font-size: 60px;
+            }
         }
     }
     #B-color {
