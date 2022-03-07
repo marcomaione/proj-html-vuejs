@@ -333,7 +333,7 @@ section {
 }
 .jumbotron {
     min-height: 450px;
-    background-image: url("../assets/avada-img/banner2-2x.jpg");
+    background: linear-gradient( rgb(0,0,0,0) 5%, rgba(0,0,0,)),url("../assets/avada-img/banner2-2x.jpg");
     background-size: cover;
     .row-2 {
         display: flex;
