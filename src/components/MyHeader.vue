@@ -51,7 +51,7 @@
                 <div class="slide">
                     <img src="../assets/avada-img/box1-2x.jpg" alt="">
                     <div class="slide-text">
-                        <h3>Bew gym apparel</h3>
+                        <h3>New gym apparel</h3>
                         <span>Look good,feel good</span>
                     </div>
                 </div>
@@ -135,12 +135,6 @@ export default {
     }
     #jumbotron {
         min-height: 450px;
-        /*
-        background-image: url("../assets/avada-img/slider82x-scaled.jpg");
-        */
-        /*
-        background: linear-gradient(to left, rgb(246, 243, 243) 10%,rgb(14, 14, 14)), url("../assets/avada-img/slider82x-scaled.jpg");
-        */
         background: linear-gradient(90deg, rgb(0,0,0) 35%, rgba(0,0,0,0)),url("../assets/avada-img/slider82x-scaled.jpg");
         background-size: cover;
         display: flex;
@@ -150,17 +144,16 @@ export default {
             span {
                 color: red;
                 font-size: 20px;
-                margin: 10px 0px;
             }
             h1 {
                 color: white;
                 font-size: 50px;
-                margin: 10px 0px;
+                margin: 15px 0px;
             }
             p {
                 color: #8d9192;
-                margin: 20px 0px;
-                font-size: 20px;
+                margin: 30px 0px;
+                font-size: 17px;
             }
             .btn-b {
             background: #4154ff;
@@ -196,7 +189,7 @@ export default {
         }
     }
     #B-color {
-        min-height: 800px;
+        min-height: 700px;
         background: linear-gradient(135deg, rgb(9, 9, 133) 10%, rgb(141, 4, 4));
         .row-1 {
             display: flex;
@@ -225,20 +218,20 @@ export default {
             }
         }
         .text-center {
-            width: 80%;
+            width: 70%;
             margin: 0px auto;
             margin-top: 100px;
             color: white;
-            font-size: 52px;
+            font-size: 30px;
             text-align: center;
             img {
                 max-width: 50px;
                 border-radius: 50%;
                 vertical-align: middle;
-                margin: 20px;
+                margin: 30px;
             }
             span {
-                font-size: 20px;
+                font-size: 15px;
                 margin-right: 10px;
                 vertical-align: middle;
             }

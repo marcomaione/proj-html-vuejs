@@ -70,21 +70,21 @@
                 <div class="item">
                     <h4>Team training</h4>
                     <span>Find a partner</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint cumque non doloribus. Placeat accusantium quo rem assumenda, nostrum quibusdam corrupti beatae aspernatur nemo!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint.</p>
                     <a href="#">Find a partner > </a>
                 </div>
                 <div class="item">
                     <i class="fa-solid fa-dumbbell"></i>
                     <h4>Crossfit workout</h4>
                     <span>Push your limits</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint cumque non doloribus. Placeat accusantium quo rem assumenda, nostrum quibusdam corrupti beatae aspernatur nemo!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint.</p>
                     <a href="#">Find a partner > </a>
                 </div>
                 <div class="item">
                     <i class="fa-solid fa-weight-scale"></i>
                     <h4>Weigth loss</h4>
                     <span>Shed those pounds</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint cumque non doloribus. Placeat accusantium quo rem assumenda, nostrum quibusdam corrupti beatae aspernatur nemo!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum obcaecati ipsam est ut temporibus necessitatibus sint.</p>
                     <a href="#">Find a partner > </a>
                 </div>
             </div>
@@ -118,7 +118,7 @@
                 <div class="row-2">
                     <div class="text">
                         <h2>" I've failed over and over again in my life.And thet is why I succeed."</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolor quos cumque excepturi doloremque impedit eius sequi, qui iure autem suscipit itaque accusantium odio ut ratione officiis voluptates aut minus</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolor quos cumque excepturi doloremque impedit eius sequi, qui iure autem suscipit itaque.</p>
                         <button>Buy Avada today ></button>
                     </div>
                 </div>
@@ -312,8 +312,8 @@ section {
     margin-top: 80px;
     text-align: center;
     width: 30%;
-    height: 300px;
-    border: solid 4px blue;
+    height: 330px;
+    border: solid 3px blue;
     border-radius: 10px;
     h4 {
         color:white;
@@ -323,7 +323,7 @@ section {
         color:yellow;
     }
     p {
-        margin:20px 0px;
+        margin:20px 35px;
         color: rgb(124, 124, 124); ;
     }
     a {
@@ -340,7 +340,7 @@ section {
         justify-content: center;
         .text {
             margin-top: 150px;
-            width: 70%;
+            width: 60%;
             text-align: center;
             h2 {
                 font-size: 40px;
@@ -348,7 +348,7 @@ section {
             }
             p {
                 color: white;
-                margin: 30px 0px;
+                margin: 30px 50px;
             }
             button {
             background:#4154ff;
